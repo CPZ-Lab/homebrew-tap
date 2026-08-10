@@ -24,7 +24,7 @@ cask "cpzai" do
   desc "Systematic trading operating system in your terminal"
   homepage "https://ai.cpz-lab.com/cli"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   binary "cpzai"
 

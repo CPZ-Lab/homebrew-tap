@@ -13,9 +13,9 @@
 cask "cpzai" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.3"
-  sha256 arm:   "166703027cb91994fdb7248f6e4c00b7b13d93fefb02712583e2499bb3565f8b",
-         intel: "adcce8a7d5f9a83998e5fbbf2e75ce2209297cd9237074ec15e0c0f12ddeeab3"
+  version "0.1.10"
+  sha256 arm:   "49f8326a48cdf74a2df72a48862f6e403de00c6aacf4412812b8df561958d83e",
+         intel: "16d3108e6a27a5fc14a7ae3c50d7e1e8089e1aa88a66bbd9e389ffbe83c80620"
 
   url "https://cli.cpz-lab.com/releases/v#{version}/cpzai-darwin-#{arch}.tar.gz",
       verified: "cli.cpz-lab.com/"
